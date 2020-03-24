@@ -1,0 +1,682 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+span{
+  color: #F00;
+}
+.apply {
+  display: none;
+  cursor: pointer;
+}
+
+body {
+  background-color: #eee;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.bottom-wrapper {
+  width: 100%;
+  height: 300px;
+  background: #F00;
+  background: -webkit-linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url("https://www.investopedia.com/thmb/xmG9FV9J_3hd_p8TMktrBG34Rvs=/1620x1080/filters:fill(auto,1)/achievement-agreement-arms-business-agreement-business-deal-cheerful-1448611-pxhere.com-afa4d8399a684cfbb5467402c7639663.jpg");
+  background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url("https://www.investopedia.com/thmb/xmG9FV9J_3hd_p8TMktrBG34Rvs=/1620x1080/filters:fill(auto,1)/achievement-agreement-arms-business-agreement-business-deal-cheerful-1448611-pxhere.com-afa4d8399a684cfbb5467402c7639663.jpg");
+}
+
+.bottom-wrapper h3 {
+  font-family: "Roboto", sans-serif;
+  visibility: visible;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  color: #fff;
+}
+
+.bottom-wrapper button {
+  background-color: #33D4D6;
+  padding: 10px 10px;
+  border-radius: 8px;
+  color: #fff;
+  border: none;
+  font-size: 0.5rem;
+  cursor: pointer;
+}
+
+.bottom-wrapper button:hover {
+  background-color: #F00;
+}
+
+button {
+  cursor: pointer;
+}
+
+.comments {
+  background: #F5FBFF;
+}
+
+.comments h2 {
+  text-align: center;
+  color: #7A838B;
+  margin-top: 20px;
+  padding: 20px 0;
+}
+
+.comments img {
+  width: 100px;
+  border-radius: 50%;
+  margin: 10px 10px;
+}
+
+.comments h3 {
+  float: right;
+  color: green;
+  font-size: 0.5rem;
+  line-height: 100px;
+  font-style: normal;
+  margin-right: 10px;
+}
+
+.comments h4 {
+  font-size: 0.7rem;
+  margin-top: 10px;
+}
+
+.comments h5 {
+  float: right;
+  color: #7A838B;
+  font-size: 0.4rem;
+  font-style: normal;
+}
+
+.comments h6 {
+  text-align: left;
+  color: #7A838B;
+  font-size: 0.5rem;
+}
+
+form {
+  display: block;
+  margin-top: 0em;
+}
+
+.form-container label {
+  margin-top: 15px;
+  margin-left: 100px;
+}
+
+.form-container input {
+  border: 1px solid #F00;
+  border-radius: 8px;
+  height: 28px;
+  width: 50%;
+  margin-bottom: 35px;
+  margin-left: 100px;
+  font-size: 13px;
+  background: transparent;
+  padding: 5px 10px;
+  margin-top: 20px;
+}
+
+.form-container textarea {
+  margin-bottom: 30px;
+  margin-left: 100px;
+  border: 1px solid #F00;
+  border-radius: 8px;
+  height: 100px;
+  width: 50%;
+  font-size: 13px;
+  background: transparent;
+  padding: 5px 10px;
+  margin-top: 20px;
+}
+
+.form h2 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.form-container .submit-btn {
+  width: 20%;
+  border: 1px solid #33D4D6;
+  text-align: center;
+  color: #33D4D6 !important;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.apply-form {
+  padding-bottom: 40px;
+}
+
+.inner-apply-form {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #F00;
+  padding: 25px 5px;
+}
+
+.apply-form-container {
+  text-align: center;
+}
+
+.apply-form-container input {
+  border: 1px solid #33D4D6;
+  ;
+  border-radius: 8px;
+  height: 28px;
+  width: 80%;
+  margin-bottom: 15px;
+  font-size: 13px;
+  background: transparent;
+  padding: 5px 10px;
+  margin-top: 10px;
+}
+
+.apply-form-container textarea {
+  margin-bottom: 15px;
+  border: 1px solid #33D4D6;
+  border-radius: 8px;
+  height: 100px;
+  width: 80%;
+  font-size: 13px;
+  background: transparent;
+  padding: 5px 10px;
+  margin-top: 10px;
+}
+
+.apply-form h2 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.apply-form p {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.apply-form-container .submit-btn {
+  width: 50%;
+  border: 1px solid #33D4D6;
+  text-align: center;
+  color: #33D4D6 !important;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.first-table {
+  width: 100%;
+  background-color: #EAF6F6;
+}
+
+footer {
+  width: 100%;
+  height: 200px;
+  background-color: #fff;
+}
+
+footer p {
+  padding: 20px 0;
+  text-align: center;
+  line-height: 20px font-family: arial;
+  font-size: 1rem;
+  color: #7A838B;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  border-color: #F00;
+  width: 70px;
+  margin: 50px auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  visibility: visible;
+  font-size: 1.5rem;
+  line-height: 1.4;
+  margin-bottom: 15px;
+  margin-top: 30px;
+  color: #fff;
+}
+
+h5 {
+  color: #040E27;
+  font-size: 1rem;
+  text-align: center;
+  margin: 20px 30%;
+}
+
+.how-number h3 {
+  color: #040E27;
+  font-weight: 400;
+  text-align: center;
+}
+
+.img-me {
+  width: 100%;
+}
+
+.img-info p {
+  color: #7A838B;
+}
+
+.numbers h6 {
+  color: #F00;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-top: 40px
+}
+
+.ipad-hr {
+  display: none;
+}
+
+nav {
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+}
+
+p {
+  text-align: center;
+  line-height: 20px;
+  padding: 0 30px 20px;
+  font-family: arial;
+  font-size: 1rem
+}
+
+.table-one {
+  display: none;
+}
+
+.team-img2 img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  text-align: center;
+}
+
+ul li {
+  margin-left: auto;
+  margin-bottom: 20px;
+  display: inline-block;
+  color: #1e1e1e;
+  list-style: none;
+  padding: 0 10px;
+}
+
+ul {
+  text-align: center;
+  width: 100%;
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+ul li:hover {
+  color: red;
+}
+
+.vertical-line {
+  border-style: none;
+  border-left-style: dotted;
+  border-width: 5px;
+  border-color: #F00;
+  height: 20px;
+  margin: 5px 50%;
+}
+
+.welcome {
+  animation: slide 20s infinite;
+  width: 100%;
+  height: 300px;
+  background: #F00;
+  background: -webkit-linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url("https://www.investopedia.com/thmb/xmG9FV9J_3hd_p8TMktrBG34Rvs=/1620x1080/filters:fill(auto,1)/achievement-agreement-arms-business-agreement-business-deal-cheerful-1448611-pxhere.com-afa4d8399a684cfbb5467402c7639663.jpg");
+  background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url("https://www.investopedia.com/thmb/xmG9FV9J_3hd_p8TMktrBG34Rvs=/1620x1080/filters:fill(auto,1)/achievement-agreement-arms-business-agreement-business-deal-cheerful-1448611-pxhere.com-afa4d8399a684cfbb5467402c7639663.jpg");
+}
+
+@keyframes slide {
+  25% {
+    background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(100, 195, 55, 0.8)), url("https://lh3.googleusercontent.com/proxy/4E-dbhSxPs5Y180Vtxb5Hav6cviqt3hxbU12knvtztope8mHYHVzzq41rSYSpGgwtLheBm_3CejPbm1DkI80MtBa62cixkFDdpuUxM2Hfq6XJPwuqAYRACOzv2dE8URm652GL3HYiE2TRHGxF9I");
+  }
+
+  50% {
+    background: url("https://www.investopedia.com/thmb/xmG9FV9J_3hd_p8TMktrBG34Rvs=/1620x1080/filters:fill(auto,1)/achievement-agreement-arms-business-agreement-business-deal-cheerful-1448611-pxhere.com-afa4d8399a684cfbb5467402c7639663.jpg");
+  }
+
+  75% {
+    background: url("https://www.smartcompany.com.au/content/uploads/2018/11/flexible-work.jpg");
+  }
+
+  100% {
+    background: url("https://www.investopedia.com/thmb/xmG9FV9J_3hd_p8TMktrBG34Rvs=/1620x1080/filters:fill(auto,1)/achievement-agreement-arms-business-agreement-business-deal-cheerful-1448611-pxhere.com-afa4d8399a684cfbb5467402c7639663.jpg");
+  }
+}
+
+.welcome h3 {
+  font-family: "Roboto", sans-serif;
+  visibility: visible;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  margin-bottom: 15px;
+  margin-top: 30px;
+  color: #fff;
+}
+
+.welcome button {
+  background-color: #33D4D6;
+  padding: 10px 10px;
+  border-radius: 8px;
+  color: #fff;
+  border: none;
+  font-size: 0.5rem;
+}
+
+.welcome button:hover {
+  background-color: #F00;
+}
+
+.welcome-container {
+  display: inline-block;
+  margin: 100px 100px;
+  max-width: 720px;
+  border-radius: 8px;
+}
+
+.wrapper2 {
+  background: #F5FBFF;
+  padding: 50px 0;
+}
+
+.wrapper2 h5 {
+  margin: 0 30%;
+}
+
+@media only screen and (min-width: 768px) {
+  .apply-form-container input {
+    height: 35px;
+    font-size: 18px;
+  }
+
+  .apply-form-container textarea {
+    height: 160px;
+    width: 80%;
+    font-size: 20px;
+  }
+
+  .apply-form-container .submit-btn {
+    width: 37%;
+  }
+
+  h5 {
+    font-size: 1rem;
+    text-align: center;
+    margin: 5px 5%;
+  }
+
+  .bottom-wrapper h3 {
+    font-size: 2rem;
+  }
+
+  .bottom-wrapper button {
+    padding: 20px 20px;
+    font-size: 1rem;
+  }
+
+  .bottom-wrapper button:hover {
+    background-color: #F00;
+  }
+
+  .welcome h3 {
+    font-size: 2rem;
+  }
+
+  .welcome button {
+    padding: 20px 20px;
+    font-size: 1rem;
+  }
+
+  .form h2 {
+    text-align: left;
+    margin: 50px 80px;
+  }
+
+  .form-container label {
+    margin-top: 15px;
+    margin-left: 80px;
+  }
+
+  .form-container input {
+    height: 30px;
+    margin-left: 80px;
+    font-size: 15px;
+  }
+
+  .form-container textarea {
+    margin-left: 80px;
+    height: 200px;
+    width: 50%;
+    font-size: 15px;
+  }
+
+  nav {
+    display: block;
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    position: fixed;
+  }
+
+  ul {
+    text-align: center;
+    width: 100%;
+    margin-right: 20%;
+  }
+
+  .logo {
+    display: table;
+    float: left;
+    line-height: 100px;
+    margin-left: 40px;
+    width: 20%;
+  }
+
+  ul li {
+    line-height: 100px;
+    display: inline-block;
+    color: #1e1e1e;
+    list-style: none;
+    padding: 0 10px;
+  }
+
+  .apply {
+    display: table;
+    float: right;
+    line-height: 100px;
+    margin-left: 0;
+    margin-right: 80px;
+  }
+
+  .apply-btn {
+    font-size: 1rem;
+    color: #33D4D6;
+  }
+
+  .apply-btn:hover {
+    color: red;
+  }
+
+  .welcome {
+    width: 100%;
+    height: 400px;
+    background: #F00;
+    background: -webkit-linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url("https://www.investopedia.com/thmb/xmG9FV9J_3hd_p8TMktrBG34Rvs=/1620x1080/filters:fill(auto,1)/achievement-agreement-arms-business-agreement-business-deal-cheerful-1448611-pxhere.com-afa4d8399a684cfbb5467402c7639663.jpg");
+    background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url("https://www.investopedia.com/thmb/xmG9FV9J_3hd_p8TMktrBG34Rvs=/1620x1080/filters:fill(auto,1)/achievement-agreement-arms-business-agreement-business-deal-cheerful-1448611-pxhere.com-afa4d8399a684cfbb5467402c7639663.jpg");
+  }
+
+  .welcome-container {
+    display: inline-block;
+    margin: 100px 100px;
+    max-width: 720px;
+    border-radius: 8px;
+  }
+
+  .wrapper {
+    margin: 0 50px;
+  }
+
+  .img-info h1 {
+    margin-bottom: 10px;
+  }
+
+  .vertical-line {
+    border-style: none;
+    border-left-style: dotted;
+    border-width: 5px;
+    border-color: #F00;
+    height: 50px;
+    margin: 15px 50%;
+  }
+
+  .bottom-wrapper {
+    width: 100%;
+    height: 400px;
+    background: #F00;
+    background: -webkit-linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url("https://www.investopedia.com/thmb/xmG9FV9J_3hd_p8TMktrBG34Rvs=/1620x1080/filters:fill(auto,1)/achievement-agreement-arms-business-agreement-business-deal-cheerful-1448611-pxhere.com-afa4d8399a684cfbb5467402c7639663.jpg");
+    background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url("https://www.investopedia.com/thmb/xmG9FV9J_3hd_p8TMktrBG34Rvs=/1620x1080/filters:fill(auto,1)/achievement-agreement-arms-business-agreement-business-deal-cheerful-1448611-pxhere.com-afa4d8399a684cfbb5467402c7639663.jpg");
+  }
+
+  .ipad-hr {
+    display: none;
+  }
+  .team-img2 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    text-align: center;
+  }
+}
+
+/********
+****MIN-WIDTH 1050****
+********/
+@media only screen and (min-width: 1000px) {
+  nav {
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    position: fixed;
+  }
+
+  .apply-form-container input {
+    height: 45px;
+  }
+
+  .apply-form-container textarea {
+    height: 200px;
+    font-size: 25px;
+  }
+
+  .apply-form-container .submit-btn {
+    width: 38%;
+  }
+
+  .wrapper {
+    width: 100%;
+    margin: 0;
+    height: 500px;
+  }
+
+  .img-info {
+    width: 45%;
+    float: right;
+  }
+
+  .img-me {
+    padding-top: 10px;
+    width: 50%;
+    margin-left: 20px;
+  }
+
+  .vertical-line {
+    display: none;
+  }
+
+  .ipad-hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 4px;
+    border-color: #F00;
+    width: 40px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  h5 {
+    font-size: 1rem;
+    text-align: center;
+    margin: 5px 5%;
+  }
+
+  .img-info2 p {
+    margin: 20px 0;
+  }
+
+  .table-one {
+    display: block;
+  }
+
+  .table-two {
+    display: none;
+  }
+
+  .team-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+  .team-img img{
+    border-radius: 50%;
+  }
+
+  ul {
+    margin-left: 50%;
+    text-align: center;
+    width: 60%;
+  }
+
+  .apply {
+    display: table;
+    float: right;
+    line-height: 100px;
+    margin-left: 0;
+    margin-right: 80px;
+  }
+}
